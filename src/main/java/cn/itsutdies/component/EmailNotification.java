@@ -45,6 +45,7 @@ public class EmailNotification {
                 System.out.println("激活邮件已送达"+receiver);
             } catch (MailException e) {
                 System.out.println("激活邮件发送失败！");
+                System.out.println("123");
             }
         }
 
